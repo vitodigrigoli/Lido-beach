@@ -7,10 +7,10 @@ CLIENT: carlo@gmail.com		carlopassword
 KITCHEN: reno@gmail.com		renopassword
 LIFE GUARD: danilo@gmail.com	danilopassword
 
+
 --------------------------
 SAFETY CHECKS
 --------------------------
-
 
 Before viewing each page, it checks whether the user is logged in (in case it refers the user to the login page) or has the privileges to access it (in this case it will refer to the "access denied" error page).
 
@@ -26,4 +26,3 @@ NAVBAR: contains the navbars of the various types of users.
 VIEW: contains the jsp, css and js files of the login, logout and registration pages.
 META-INF: contains the context.xml file for the datasource.
 WEB-INF: contains the web.xml file for managing the error pages.
-
