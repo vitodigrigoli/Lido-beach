@@ -1,0 +1,24 @@
+.form{
+	border: 3px solid #687c94;
+	margin: 50px 0;
+	padding: 30px;
+}
+
+.table{
+	text-align: left;
+	margin: 50px 0;
+}
+th{
+	width: 200px;
+}
+
+form label{
+	
+	display: block;
+	margin-top: 30px;
+}
+
+.fab{
+	margin: 0px 10px;
+	font-size: 30px;
+}

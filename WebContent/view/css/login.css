@@ -1,0 +1,97 @@
+/*
+----------------------------
+General
+----------------------------
+*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.5;
+}
+
+a{
+	color: #f6376d;
+}
+
+h1, h2, h3{
+	text-transform: uppercase;
+}
+.button{
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #f6376d;
+	padding: 15px 8px;
+	border-radius: 8px;
+	margin: 20px 0;
+	cursor: pointer;
+	min-width: 120px;
+	transition: 0.2s;
+}
+
+.button:hover{
+	transform: scale(1.1);
+}
+
+
+body{
+	background: url(/media/bg-login.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.green{
+	color: #46d7ac;
+}
+
+.red{
+	color: #f62e4b;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	background-color: #263145;
+	border-radius: 25px;
+	margin-top: 100px;
+	height: 500px;
+	opacity: 0.9;
+	padding: 30px 0;
+}
+
+.container h1{
+	color: white;
+	text-align: center;
+	margin: 50px 0;
+}
+
+form{
+	margin: 0 100px;
+	padding: 30px 0;
+	
+}
+
+form input{
+	border: none;
+	border-bottom: 1px solid #b3c6e4;
+	width: 100%;
+	margin-bottom: 30px;
+	background: transparent;
+	color: white;
+	outline: transparent;
+	font-size: 17px;
+}
+
+#servletResponse{
+	margin: 0 100px;
+	color: white;
+}
+

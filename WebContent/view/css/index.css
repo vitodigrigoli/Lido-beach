@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.5;
+}
+
+a{
+	color: #f6376d;
+}
+
+h1, h2, h3{
+	text-transform: uppercase;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	display: flex;
+}
+
+.green{
+	color: #46d7ac;
+}
+
+.red{
+	color: #f62e4b;
+}
+
+.title,
+.form{
+	width: 50vw;
+	height: 100vh;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.title video{
+	position: absolute;
+	width: 45vw;
+	object-fit: cover;
+}
+.title h1{
+	text-align: center;
+	font-size: 6em;
+	font-weight: 900;
+	text-transform: uppercase;
+	background-color: #fff;
+	mix-blend-mode: screen;
+	padding: 100px 0;
+	width: 100%;
+}
+.form{
+	display: flex;
+	align-items: center;
+	background-color: #263145;
+	color: white;
+}
+
+form{
+	border: 3px solid #687c94;
+	margin: 0 100px;
+	padding: 30px 100px;
+	border-radius: 5%;
+
+	
+	
+}
+
+form h2{
+	text-align: center;
+	margin: 50px 0;
+}
+
+form input{
+	border: none;
+	border-bottom: 1px solid #b3c6e4;
+	width: 100%;
+	margin-bottom: 30px;
+	background: transparent;
+	color: white;
+	outline: none;
+}
+
+.button{
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #f6376d;
+	padding: 15px 8px;
+	border-radius: 8px;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: 0.2s;
+	outline: none;
+}
+
+.button:hover{
+	transform: scale(1.1);
+}
+
+#ajaxResponse{
+	margin: 15px 0;
+	color: #46d7ac;
+}
+
+

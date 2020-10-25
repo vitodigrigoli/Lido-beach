@@ -1,0 +1,19 @@
+
+.table{
+	text-align: center;
+}
+
+.table th{
+	padding: 10px;
+}
+
+
+.table .fas{
+	margin-left: 15px;
+}
+
+.table .fas:hover{
+
+	color: #f6376d;
+	cursor: pointer;
+}

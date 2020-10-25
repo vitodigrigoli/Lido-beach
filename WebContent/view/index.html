@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/css/index.css">    
+    <script src="https://kit.fontawesome.com/3352ada0d1.js" crossorigin="anonymous"></script>
+    <title>Welcome to Lido beach</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="title">
+			<video autoplay muted loop>
+				<source src="/media/beach.mp4" type="video/mp4">
+			</video>
+			<h1>Welcome to<br>Lido Beach</h1>
+		</div>
+		
+		<div class="form">
+			<form>
+				<h2>Registration Form</h2>
+				<input type="text" id="firstName" placeholder="First Name" required>
+				<input type="text" id="lastName" placeholder="Last Name" required>
+				<input type="email" id="email" placeholder="Email" required>
+				<input type="password" id="password" placeholder="Password" required>
+				<input class="button" type="submit" value="Register">
+				
+				<p>If you have already registered please <b><a href="/view/login.jsp">SIGN IN</a></b></p>	
+				<div id="ajaxResponse"></div>    
+			</form>
+						
+		</div>	
+	</div>
+
+	<script src="/view/js/jquery-3.5.1.js"></script>
+	<script src="/view/js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+#AjaxResponse{
+	text-align: center;
+	margin: 60px 0;
+}
+
+td{
+	width: 150px;
+}
+
+
+.form{
+	border: 3px solid #687c94;
+	margin: 50px 0;
+	padding: 30px;
+}
+
+.form h3{
+	margin: 20px 0;
+}
+
+.form label{
+	margin-right: 15px;;
+}
+
+#AjaxResponse .fas:hover{
+	cursor: pointer;
+	color: #f6376d;
+}

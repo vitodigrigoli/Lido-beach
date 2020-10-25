@@ -1,0 +1,40 @@
+.form{
+	border: 3px solid #687c94;
+	margin: 50px 0;
+	padding: 30px;
+}
+
+form label{
+	
+	display: block;
+	margin-top: 30px;
+}
+
+.fab{
+	margin: 0px 10px;
+	font-size: 30px;
+}
+
+.table td{
+	width: 200px;
+}
+
+.table tr:last-child{
+	font-weight: 700;
+}
+
+.table .fas{
+	margin-left: 15px;
+}
+
+.table .fas:hover{
+
+	color: #f6376d;
+	cursor: pointer;
+}
+
+#AjaxShowCart{
+
+	margin: 30px 0;
+	font-size: 17px;
+}

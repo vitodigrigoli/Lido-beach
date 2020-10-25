@@ -1,0 +1,109 @@
+/*
+----------------------------
+dashboard.jsp & edit.jsp
+----------------------------
+*/
+
+.container{
+	margin-left: 100px;
+	padding: 50px;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards__card{
+	flex-basis: 25%;
+	text-align: center;
+	height: 200px;
+	margin: 50px 0;
+	background-color: #263145;
+	color: white;
+	border-radius: 25px;
+}
+
+.cards__card h3{
+	font-size: 18px;
+	margin-top: 25px;
+	padding: 0 10px;
+}
+
+h3 .fas{
+	margin-right: 10px;
+}
+
+.cards__card__response{
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.flex{
+	display: flex;
+}
+.form{
+	border: 3px solid #687c94;
+	margin: 50px 0;
+	padding: 30px;
+	
+}
+
+.form h3{
+	margin-bottom: 30px;
+}
+
+.form__input{
+	flex-basis: 70%;
+}
+
+.form__response{
+	flex-basis: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.form__response p{
+	border-bottom: 4px solid #f6376d;
+	position: relative;
+}
+
+.form__order{
+	margin: 40px 0;
+	font-size: 13px;
+	text-align: center;
+}
+
+.form__order p{
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+th{
+	width: 100px;
+}
+
+.form__result{
+
+margin: 40px 0;
+text-align: center;
+}
+
+.form__result td{
+	width: 200px;
+}
+
+.fas{
+	cursor: pointer;
+}
+
+#ajaxResponseAdd{
+	margin-top: 25px;
+}
+
+.form .fas:hover{
+	color: #f6376d;
+}

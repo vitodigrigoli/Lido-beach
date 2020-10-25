@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+/*
+----------------------------
+General
+----------------------------
+*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.5;
+}
+
+a{
+	color: #f6376d;
+}
+
+h1, h2, h3{
+	text-transform: uppercase;
+}
+.button{
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #f6376d;
+	padding: 10px 8px;
+	border-radius: 8px;
+	margin: 40px 0 0 0;
+	cursor: pointer;
+	min-width: 120px;
+	transition: 0.2s;
+	color: white;
+	display: block;
+	outline: none;
+}
+
+input[type=submit]{
+	border: none;
+}
+
+.button:hover{
+	transform: scale(1.1);
+}
+
+body{
+	font-family: 'Poppins', sans-serif;	
+}
+
+.container{
+	margin-left: 100px;
+	padding: 50px;
+}
+
+.green{
+	color: #46d7ac;
+}
+
+.red{
+	color: #f62e4b;
+}
+
+/*
+----------------------------
+Navbar
+----------------------------
+*/
+
+.navbar{
+	position: fixed;
+	height: 100vh;
+	top: 0;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #263145;
+	border-right: 3px solid #f6376d;
+}
+
+.navbar ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+.navbar ul li{
+	font-size: 30px;
+	margin: 70px auto;
+}
+
+.navbar ul li a{
+	color: white;
+	transition: 0.5;
+}
+
+.navbar ul li a:hover{
+	color: #f6376d;
+}
+
